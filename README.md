@@ -50,3 +50,21 @@ time taken.
 Each line of the output is printed as follows:
 
 tree string - embedded or induced support
+
+# OUTPUT FILE 
+
+The output format is as follows:
+
+DBASE_NUM_TRANS: the number of transactions
+
+DBASE_MAXITEM: the maximum item id
+
+MINSUPPORT: absolute support (percentage support)
+
+next is a set of frequent trees in the format
+
+tree pattern - support
+
+F1, F2, F3, etc. show how many frequent items have been found and how many were candidates at different pattern lengths
+
+These stats are also printed in the 3rd to last line, followed by the time.
